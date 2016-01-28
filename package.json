@@ -1,0 +1,29 @@
+{
+  "name": "contentSwitch",
+  "version": "0.0.1",
+  "description": "Modifica un carcter por otro en el contenido de los ficheros de un directorio.",
+  "main": "contentSwitch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node contentSwitch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexrfr/contentSwitch.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Alexander Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexrfr/contentSwitch/issues"
+  },
+  "homepage": "https://github.com/alexrfr/contentSwitch",
+  "dependencies": {
+    "chokidar": "~1.4.2",
+    "fs": "0.0.2",
+    "path": "~0.12.7"
+  }
+}
